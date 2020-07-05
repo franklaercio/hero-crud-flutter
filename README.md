@@ -1,5 +1,5 @@
 <h2 align="center"> 
-  Hero CRUD FLUTTER
+  Hero App - Flutter :blue_heart:
 </h1>
 
 <p align="center">
