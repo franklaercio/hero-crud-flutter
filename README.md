@@ -21,7 +21,7 @@
   </a>
 </p>
 
-# Hero CRUD
+# Hero App
 
 under development
 
