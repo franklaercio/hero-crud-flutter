@@ -11,7 +11,12 @@ class UserList extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Hero App'),
+        title: Center(
+          child: Text(
+            'Hero App',
+            style: TextStyle(fontFamily: 'BangersRegular', fontSize: 30),
+          ),
+        ),
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.add),

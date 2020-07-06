@@ -15,8 +15,14 @@ class UserTile extends StatelessWidget {
         : CircleAvatar(backgroundImage: AssetImage(user.avatarUrl));
     return ListTile(
       leading: avatar,
-      title: Text(user.name),
-      subtitle: Text(user.email),
+      title: Text(
+        user.name,
+        style: TextStyle(fontFamily: 'BangersRegular'),
+      ),
+      subtitle: Text(
+        user.email,
+        style: TextStyle(fontFamily: 'RobotoItalic'),
+      ),
       trailing: Container(
         width: 100,
         child: Row(
@@ -38,14 +44,23 @@ class UserTile extends StatelessWidget {
                   showDialog(
                     context: context,
                     builder: (context) => AlertDialog(
-                      title: Text('Delete Hero'),
-                      content: Text('Are you sure?'),
+                      title: Text(
+                        'Delete Hero',
+                        style: TextStyle(fontFamily: 'BangersRegular'),
+                      ),
+                      content: Text(
+                        'Are you sure?',
+                        style: TextStyle(fontFamily: 'BangersRegular'),
+                      ),
                       actions: <Widget>[
                         FlatButton(
                           onPressed: () {
                             Navigator.of(context).pop(false);
                           },
-                          child: Text('No'),
+                          child: Text(
+                            'No',
+                            style: TextStyle(fontFamily: 'BangersRegular'),
+                          ),
                         ),
                         FlatButton(
                           onPressed: () {
@@ -53,7 +68,10 @@ class UserTile extends StatelessWidget {
                                 .remove(user);
                             Navigator.of(context).pop(true);
                           },
-                          child: Text('Yes'),
+                          child: Text(
+                            'Yes',
+                            style: TextStyle(fontFamily: 'BangersRegular'),
+                          ),
                         ),
                       ],
                     ),

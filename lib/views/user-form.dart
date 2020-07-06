@@ -23,7 +23,10 @@ class UserForm extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Create/Edit Hero'),
+        title: Text(
+          'Create/Edit Hero',
+          style: TextStyle(fontFamily: 'BangersRegular'),
+        ),
         actions: <Widget>[
           IconButton(
               icon: Icon(Icons.save),

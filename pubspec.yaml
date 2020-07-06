@@ -19,7 +19,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  provider:  
+  provider: 
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -46,6 +46,13 @@ flutter:
    - assets/images/superhero-batgirl-superhero-asian-redhead-512.png
    - assets/images/superhero-deadpool-comics-512.png
    - assets/images/superhero-spiderman-comics-512.png
+  fonts:
+    - family: BangersRegular     
+      fonts:
+        - asset: assets/fonts/Bangers-Regular.ttf  
+    - family: RobotoItalic     
+      fonts:
+        - asset: assets/fonts/Roboto-Italic.ttf      
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
