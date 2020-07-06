@@ -21,37 +21,44 @@
   </a>
 </p>
 
-# Hero App
+# :trophy: Hero App
 
-under development
+This is a CRUD Flutter app. In it is possible create hero, edit hero and delete hero. The architecture is divide into models, views, components, data, provider and routes. The fonts used are Bangers Regular and Roboto Italic.
 
-## Getting Started
+<p>
+<img src="assets/images/print_screen_1.jpeg" width="200">  <img src="assets/images/print_screen_2.jpeg" width="200">  <img src="assets/images/print_screen_3.jpeg" width="200"> <img src="assets/images/print_screen_4.jpeg" width="200">
+</p>
 
-under development
+## :mag_right: Getting Started
 
-### Installing
+For started you need install [Flutter] (https://flutter.dev/docs/get-started/install)
 
-under development
+### :hammer: Installing
 
-## Contributing
+Befere download app and install Flutter, you need execute the command in your terminal:
+
+```flutter run```
+
+## :family: Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Versioning
+## :chart_with_upwards_trend: Versioning
 
 For the versions available, see the [tags on this repository](https://github.com/franklaercio/Ecoleta/tags). 
 
-## Authors
+## :man_technologist: Authors
 
 * **Frank Laércio** - [franklaercio](https://github.com/franklaercio)
 
 See also the list of [contributors](https://github.com/franklaercio/Ecoleta/contributors) who participated in this project.
 
-## License
+## :clipboard: License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
+## :newspaper: Acknowledgments
 
 * Flutter
 * Dart
+* MaterialApp
