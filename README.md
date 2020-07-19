@@ -35,8 +35,9 @@ For started you need install [Flutter] (https://flutter.dev/docs/get-started/ins
 
 ### :hammer: Installing
 
-Befere download app and install Flutter, you need execute the command in your terminal:
+Befere download app and install Flutter, you need connect one mobile device and execute these commands in your terminal:
 
+```flutter pub get``` <br /><br />
 ```flutter run```
 
 ## :family: Contributing
