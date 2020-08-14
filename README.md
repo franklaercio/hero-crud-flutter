@@ -21,7 +21,7 @@
   </a>
 </p>
 
-# :trophy: Hero App
+## :bookmark_tabs: Resume of application
 
 This is a CRUD Flutter app. In it is possible create hero, edit hero and delete hero. The architecture is divide into models, views, components, data, provider and routes. The fonts used are Bangers Regular and Roboto Italic.
 
