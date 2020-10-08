@@ -23,7 +23,7 @@
 
 ## :bookmark_tabs: Resume of application
 
-This is a CRUD Flutter app. In it is possible create hero, edit hero and delete hero. The architecture is divide into models, views, components, data, provider and routes. The fonts used are Bangers Regular and Roboto Italic.
+This is a CRUD Flutter app. In it is possible create hero, edit hero and delete hero. The architecture is divide into models, views, components, data, provider and routes. The fonts used are Bangers Regular and Roboto Italic. This ideia can you check in the Youtube Channel [Cod3r Cursos](https://www.youtube.com/c/COD3RCURSOS/featured).
 
 <p>
 <img src="assets/images/print_screen_1.jpeg" width="200">  <img src="assets/images/print_screen_2.jpeg" width="200">  <img src="assets/images/print_screen_3.jpeg" width="200"> <img src="assets/images/print_screen_4.jpeg" width="200">
